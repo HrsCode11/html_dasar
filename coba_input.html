@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password</label><br>
+    <input type="password" name="pwd" id="pwd"><br>
+    <br>
+
+    <hr>
+    <h3>Uji Coba2</h3>
+    <input type="radio" name="coba" id="html" value="HTML"> <label for="html">HTML</label><br>
+    <input type="radio" name="coba" id="css" value="CSS"> <label for="css">CSS</label><br>
+    <input type="radio" name="coba" id="javascript" value="JavaScript">JavaScript<label for="javascript"></label>
+    <p>Sebelum name diganti dengan nilai yang sama, semua pilihan bisa dipilih. sesudah name diberi nilai yang sama, pilihan hanya bisa dipilih satu</p>
+    
+    <hr>
+    <h3>Uji Coba 3</h3>
+    <input type="checkbox" name="coba" id="id1" value="Bike">
+    <label for="id1">I have a bike</label><br>
+    <input type="checkbox" name="coba" id="id2" value="Car">
+    <label for="id2">I have a car</label><br>
+    <input type="checkbox" name="coba" id="id3" value="Boat">
+    <label for="id3">I have a boat</label>
+    <p>type input ini sama dengan type input radio, tetapi bagian kliknya berbentuk kotak</p>
+
+    <hr>
+    <h3>Uji Coba 4</h3>
+    <label for="favcolor">Pilih Warna dengan type="color":</label>
+    <input type="color" name="" id="favcolor"><br>
+    <label for="b">Pilih tanggal dengan type date:</label>
+    <input type="date" name="tanggal" id="b"><br>
+    <input type="button" onclick="alert('Hello World')" value="Click Me!" ><br>
+    <p>
+        color - digunakan untuk memilih warna. Elemen ini akan menampilkan sebuah palet warna yang dapat digunakan untuk memilih warna. <br>
+        date - Digunakan untuk memasukkan tanggal. Elemen ini akan menampilkan sebuah dropdown untuk memilih hari, bulan, dan tahun. <br>
+        button - Digunakan untuk menampilkan tombol. onclick="alert('Hello World')" bagian ini menampilkan pesan setelah button di klik
+
+    </p>
+
+    <hr>
+    <h3>Uji Coba 5</h3>
+    <label for="birthdaytime">input dengan type datetime-local:</label>
+    <input type="datetime-local" name="birthdaytime" id="birthdaytime"><br>
+    <label for="bdaymoth">input dengan type mont:</label>
+    <input type="month" name="bdaymoth" id="bdaymoth"><br>
+    <label for="email">Enter your email</label>
+    <input type="email" name="email" id="email"><br>
+    <p>
+        datetime-local - Digunakan untuk memasukkan tanggal dan waktu yang spesifik. Elemen ini akan menampilkan sebuah dropdown untuk memilih tanggal, jam, dan menit. <br>
+        month - Digunakan untuk memasukkan bulan dan tahun. Elemen ini akan menampilkan sebuah dropdown untuk memilih bulan dan tahun. <br>
+        email - Digunakan untuk memasukkan alamat email. Elemen ini akan memvalidasi apakah teks yang dimasukkan memiliki format alamat email yang benar.
+    </p>
+
+    <hr>
+    <h3>Uji Coba 6</h3>
+    <input type="image" src="html_form/gambar/icon.png" alt="Submit" width="48" height="48"><br>
+    <label for="myfile">Pilih file:</label>
+    <input type="file" name="myfile" id="myfile"><br>
+    <input type="hidden" name="custId" id="custId" value="3487"><br>
+    <p>
+        type="image": Digunakan untuk memilih gambar. Elemen ini akan menampilkan gambar dengan atribut src yang diberikan. <br>
+        input type="file": Digunakan untuk memilih file dari komputer pengguna. Elemen ini akan menampilkan sebuah dialog box untuk memilih file apabila di-click. <br>
+        input type="hidden": Digunakan untuk menyimpan data yang tidak perlu ditampilkan ke pengguna. Elemen ini akan mengirimkan data ke server apabila form dikirim. 
+        
+    </p>
+
+    <hr>
+    <h3>Uji Coba 7</h3> 
+    <label for="quantity">quantity (between 1 and 5):</label>
+    <input type="number" name="quantity" id="quantity" min="1" max="10"><br>
+    <label for="vol">Volume (between 0 and 50):</label>
+    <input type="range" name="vol" id="vol" min="0" max="50"><br>
+    <p>
+        type="number": Digunakan untuk memasukkan angka. Elemen ini memiliki atribut min dan max untuk mengatur batasan nilai yang dapat dimasukkan. <br>
+        type="range": Digunakan untuk memilih nilai dari rentang yang ditentukan. Elemen ini memiliki atribut min dan max untuk mengatur batasan nilai yang dapat dipilih.
+    </p>    
+
+    <h3>Uji Coba 8</h3>
+    <label for="homepage">add your homepage:</label>
+    <input type="url" name="homepage" id="homepage"><br>
+    <label for="gsearch">Search Google:</label>
+    <input type="search" name="gsearch" id="gsearch"><br>
+    <label for="ph">Enter Your Phone:</label>
+    <input type="tel" name="ph" id="ph" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+    <p>
+        type="url": Digunakan untuk memasukkan URL. Elemen ini akan memvalidasi apakah teks yang dimasukkan memiliki format URL yang benar. <br>
+        type="search": Digunakan untuk memasukkan teks pencarian. Elemen ini mirip dengan type="text", tetapi tetapi memiliki fitur untuk menghapus teks yang diketik. <br>
+        type="tel": Digunakan untuk memasukkan nomor telepon. Elemen ini akan memvalidasi apakah teks yang dimasukkan memiliki format nomor telepon yang benar.
+    </p>
+
+    <h3>Uji Coba 9</h3>
+    <label for="appt">Select a time:</label>
+    <input type="time" name="appt" id="appt"><br>
+    <label for="week">Select a week:</label>
+    <input type="week" name="week" id="week"><br>
+    <p>
+        type="time": Digunakan untuk memilih waktu. Elemen ini akan menampilkan sebuah dropdown untuk memilih jam dan menit. <br>
+        type="week": Digunakan untuk memilih minggu. Elemen ini akan menampilkan sebuah dropdown untuk memilih minggu dan tahun.
+    </p>
+</body>
+</html>
